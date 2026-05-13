@@ -1,0 +1,11 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: library-risk-control
+
+library:
+  fine-rate: 1.0
+  max-borrow-days: 30
+  reservation-expire-hours: 24
